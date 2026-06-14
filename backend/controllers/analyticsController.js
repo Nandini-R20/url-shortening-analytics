@@ -136,11 +136,3 @@ const getAnalytics = async (req, res) => {
 };
 
 module.exports = { getAnalytics };
-// Analytics controller stubs
-exports.recordVisit = async (req, res) => {
-  res.status(201).json({ message: 'recordVisit (stub)' });
-};
-
-exports.getAnalytics = async (req, res) => {
-  res.status(200).json({ message: 'getAnalytics (stub)' });
-};
